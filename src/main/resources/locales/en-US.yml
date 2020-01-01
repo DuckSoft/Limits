@@ -4,30 +4,30 @@
 ###########################################################################################
 
 block-limits:
-  hit-limit: "&c[material] limited to [number]!"
+  hit-limit: "&c[material] 已限制到 [number]!"
 entity-limits:
-  hit-limit: "&c[entity] spawning limited to [number]!"
+  hit-limit: "&c[entity] 生成已限制到 [number]!"
 limits:
-  panel-title: "Island limits"
+  panel-title: "岛屿限制"
 
 
 admin:
   limits:
       main:
         parameters: "<player>"
-        description: "show the island limits for player"
+        description: "显示玩家的限制"
       calc:
          parameters: "<player>"
-         description: "recalculate the island limits for player"
-         finished: "&aIsland recalc finished successfully!"
+         description: "重新计算玩家的岛屿限制"
+         finished: "&a岛屿重计算已完成!"
 
 island:
   limits:
-    description: "show your island limits"
+    description: "显示您的岛屿限制"
     max-color: "&c"
     regular-color: "&a"
     block-limit-syntax: "[number]/[limit]"
-    no-limits: "&cNo limits set in this world"
+    no-limits: "&c此世界中无限制"
     recount:
-      description: "recounts limits for your island"
+      description: "重新计数岛屿限制"
 
